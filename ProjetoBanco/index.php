@@ -21,11 +21,11 @@
 
     $p2->sacar(100);
 
-    $p1->pagarMensal(338);
-    $p2->pagarMensal(630);
+    $p1->pagarMensal();
+    $p2->pagarMensal();
 
-    $p1->sacar();
-    $p2->sacar();
+    $p1->sacar(338);
+    $p2->sacar(630);
 
     $p1->fecharConta();
     $p2->fecharConta();
