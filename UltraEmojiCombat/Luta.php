@@ -13,7 +13,7 @@ class Luta
       && ($l1 != $l2)) {
         $this->aprovada = true;
         $this->desafiado = $l1;
-        $this->desafiante $l2;
+        $this->desafiante = $l2;
       } else {
         $this->aprovada = false;
         $this->desafiado = null;
@@ -43,7 +43,7 @@ class Luta
           break;
       }
     } else {
-      echo "<p>Luta não pode acontecer</p>"
+      echo "<p>Luta não pode acontecer</p>";
     }
   }
   // Métodos Especiais

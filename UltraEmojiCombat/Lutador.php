@@ -7,12 +7,12 @@ class Lutador {
   private $categoria, $vitorias, $derrotas, $empates;
   //Métodos
   function apresentar() {
-    echo "<p>-------------------</p>"
+    echo "<p>-------------------</p>";
     echo "<p>Chegou a hora! O lutador ". $this->getNome();
     echo "Veio diretamente de " . $this->getNacionalidade();
     echo ", tem " . $this->getIdade() . " anos e pesa " . $this->getPeso() . "Kg";
-    echo "<br> Ele tem " . this->getVitorias() . " vitórias";
-    echo this->getDerrotas() . " derrotas e " . $this->getEmpates() . " empates";
+    echo "<br> Ele tem " . $this->getVitorias() . " vitórias";
+    echo $this->getDerrotas() . " derrotas e " . $this->getEmpates() . " empates";
   }
   function status() {
     echo "<p>---------------------</p>";
